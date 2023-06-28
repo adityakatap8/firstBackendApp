@@ -9,9 +9,7 @@ app.get("/", (req,res) => {
     res.status(200).send("Hello")
 })
 
-app.get("/api/v1/:Id", (req,res) => {
-    res.status(200).json({params : req.params.Id});
-})
+
 
 
 app.get("/api/v1/instagram", (req, res) => {
