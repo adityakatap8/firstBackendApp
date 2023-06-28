@@ -10,7 +10,9 @@ app.get("/", (req,res) => {
 })
 
 
-
+app.get("/api/v1/hello", (req, res) => {
+    res.send("Test message")
+})
 
 
 app.get("/api/v1/instagram", (req, res) => {
